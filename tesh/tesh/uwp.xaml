@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tesh.uwp">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="La Plataforma universal de Windows (conocida generalmente como UWP) es una plataforma común de aplicaciones presentes en todos los dispositivos que cuentan con Windows 10 y sus variantes, que se presentó en Windows 8 por primera vez como WinRT (Windows Runtime)" HorizontalOptions="Fill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

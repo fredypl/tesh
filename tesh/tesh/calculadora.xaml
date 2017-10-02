@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tesh.calculadora">
+    <ContentPage.Content>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" x:Name="caja"/>
+
+            <Button Grid.Column="0" Grid.Row="1" Text="^" Clicked="POTENCIA_Clicked"/>
+            <Button Grid.Column="1" Grid.Row="1" Text="!" Clicked="FACTORIAL_Clicked_1"/>
+            <Button Grid.Column="2" Grid.Row="1" Text="R" Clicked="RAIZ_Clicked_2"/>
+            <Button Grid.Column="3" Grid.Row="1" Text="/" Clicked="ENTRE_Clicked_3"/>
+            <Button Grid.Column="0" Grid.Row="2" Text="7" Clicked="SIETE_Clicked_4"/>
+            <Button Grid.Column="1" Grid.Row="2" Text="8" Clicked="OCHO_Clicked_5"/>
+            <Button Grid.Column="2" Grid.Row="2" Text="9" Clicked="NUEVE_Clicked_6"/>
+            <Button Grid.Column="3" Grid.Row="2" Text="*" Clicked="POR_Clicked_7"/>
+            <Button Grid.Column="0" Grid.Row="3" Text="4" Clicked="CUATRO_Clicked_8"/>
+            <Button Grid.Column="1" Grid.Row="3" Text="5" Clicked="CINCO_Clicked_9"/>
+            <Button Grid.Column="2" Grid.Row="3" Text="6" Clicked="SEIS_Clicked_10"/>
+            <Button Grid.Column="3" Grid.Row="3" Text="-" Clicked="MENOS_Clicked_11"/>
+            <Button Grid.Column="0" Grid.Row="4" Text="1" Clicked="UNO_Clicked_12"/>
+            <Button Grid.Column="1" Grid.Row="4" Text="2" Clicked="DOS_Clicked_13"/>
+            <Button Grid.Column="2" Grid.Row="4" Text="3" Clicked="TRES_Clicked_14"/>
+            <Button Grid.Column="3" Grid.Row="4" Text="+" Clicked="MAS_Clicked_15"/>
+            <Button Grid.Column="0" Grid.Row="5" Text="+/-" Clicked="MAS_MENOS_Clicked_16"/>
+            <Button Grid.Column="1" Grid.Row="5" Text="0" Clicked="CERO_Clicked_17"/>
+            <Button Grid.Column="2" Grid.Row="5" Text="." Clicked="PUNTO_Clicked_18"/>
+            <Button Grid.Column="3" Grid.Row="5" Text="=" Clicked="IGUAL_Clicked_19"/>
+            <Button Grid.Column="0" Grid.Row="6" Text="C" Clicked="C_Clicked_20"/>
+            <Button Grid.Column="1" Grid.Row="6" Text="CE" Clicked="CE_Clicked_21"/>
+            <Button Grid.Column="2" Grid.Row="6" Text="NEXT" Clicked="NEXT_Clicked_22"/>
+
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

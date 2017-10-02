@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tesh.ios">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="iOS es un sistema operativo móvil de la multinacional Apple Inc. Originalmente desarrollado para el iPhone (iPhone OS), después se ha usado en dispositivos como el iPod touch y el iPad." HorizontalOptions="Fill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tesh.MasterDetailPage1Detail"
+             Title="Contenido">
+  <StackLayout Padding="10">
+
+        <Label Text="Los lenguajes y herramientas nativos de cada plataforma: ObjectiveC/Swift y XCode en iOS, Java y Android Studio en Android, C#, XAML y Visual Studio en el caso de Windows Phone y Windows 8. Herramientas multiplataforma que compilan a código nativo. La más conocida y utilizada es Xamarin.Herramientas multiplataforma basadas en HTML. La más conocida es PhoneGap/Apache Cordova, pero existen muchas más." HorizontalOptions="Fill"/>
+
+    </StackLayout>
+</ContentPage>
